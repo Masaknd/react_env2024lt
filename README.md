@@ -7,7 +7,7 @@
 
 React Dev Environment based on Vite with Typescript and TailwindCSS.
 ESLinter, Prettier, Vitest, Husky, Lint-Staged and Github Actions which checks your codes every time when you commit and push to your git repository.
-[!CAUTION] This is liter version of react_env2024 without Storybook and Shadcn/ui 
+![CAUTION] This is liter version of react_env2024 without Storybook and Shadcn/ui
 
 ## Getting Started
 
