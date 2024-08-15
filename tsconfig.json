@@ -11,7 +11,7 @@
     "compilerOptions": {
         /* Import alias */
         "baseUrl": "./",
-        "path": {
+        "paths": {
             "@/*": ["src/*"]
         }
     }
