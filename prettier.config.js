@@ -4,7 +4,7 @@ const config = {
     tabWidth: 2,
     singleQuote: true,
     //** this might need to be fixed. Google to other solution */
-    plugins: [import('prettier-plugin-tailwindcss')],
+    plugins: ['prettier-plugin-tailwindcss'],
     tailwindFunctions: ['tv'],
   }
 
