@@ -5,10 +5,15 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react(), tsconfigPaths()],
-    test: {
-        globals: true,
-        environment: 'happy-dom',
-        setupFiles: ['./vitest-setup.ts'],
+  plugins: [react(), tsconfigPaths()],
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    setupFiles: ['./vitest-setup.ts'],
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
     },
+  },
 })
